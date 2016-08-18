@@ -1,4 +1,4 @@
-FROM selenium/node-firefox
+FROM selenium/node-chrome
 
 RUN sudo apt-get update -qqy \
   && sudo apt-get -qqy --no-install-recommends install -y net-tools
