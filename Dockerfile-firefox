@@ -1,0 +1,11 @@
+FROM selenium/node-firefox
+
+#==============================
+# Scripts to run Selenium Node
+#==============================
+COPY \
+  custom_entry_point.sh \
+    /opt/bin/
+RUN chmod +x /opt/bin/custom_entry_point.sh
+
+CMD ["/opt/bin/custom_entry_point.sh"]
