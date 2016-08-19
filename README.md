@@ -10,7 +10,7 @@ Selenium Nodes configured to run Google Chrome or Mozilla Firefox with the abili
 
 [`bg85/docker-selenium` Dockerfile-firefox](https://github.com/bg85/docker-selenium/blob/master/Dockerfile-firefox)
 
-## How to use this image
+## How to use these images
 
 First, you will need a Selenium Grid Hub that the Node will connect to.
 
